@@ -1,5 +1,10 @@
 #! /bin/awk -f
 
+# screenshots from past
+# Copyright Lesmana Zimmer
+# Licensed under WTFPL version 2
+# http://www.wtfpl.net/about/
+
 # expected input is output of md5sum sorted by filename
 # output is duplicate count and duplicate filenames
 

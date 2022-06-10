@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# screenshots from past
+# Copyright Lesmana Zimmer
+# Licensed under WTFPL version 2
+# http://www.wtfpl.net/about/
+
 trap 'echo error exit ; kill 0' EXIT
 
 tools=""
