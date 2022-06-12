@@ -5,15 +5,20 @@ scripts to help analyze the strange behaviour of some screenshot tools
 which produce screenshots from the past.
 
 situation: some screenshot tools like scrot or import from imagemagick
-will not produce current screenshots and instead produce a repeat
-from past invocations of the tools.
+will not always produce a current screenshots and instead often produce
+a repeat from past invocations of the tools.
 
-the first invocation in a clean gnome session will always produce
-a current screenshot. the following invocations will either produce
-a current screenshot or a repeat of a previous invocation.
+the first invocation of a screenshot tool in a clean gnome session
+will always produce a current screenshot. the following invocations
+of a screenshot tool will either produce a current screenshot
+or a repeat of a previous invocation.
 
 a clean gnome session is one which was just booted and no screenshots
 made yet.
+
+the tools are not limited to repeating screenshots from their own previous
+invocation. for example a later invocation of scrot can repeat a screenshot
+from a previous invocation of import.
 
 with increasing number of repeats the chance to produce a current screenshot
 goes towards zero. typically there will be three current screenshots
