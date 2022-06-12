@@ -1,5 +1,5 @@
 screenshots from the past
----------------------
+-------------------------
 
 scripts to help analyze the strange behaviour of some screenshot tools
 which produce screenshots from the past.
