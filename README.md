@@ -4,6 +4,26 @@ screenshots from the past
 scripts to help analyze the strange behaviour of some screenshot tools
 which produce screenshots from the past.
 
+how to use
+----------
+
+setup:
+
+1. restart gnome: alt+f2 -> r
+2. put terminal fullscreen: F11
+3. disable blinking cursor: tput civis
+4. clear terminal: clear
+
+screenshot and analyze
+
+1. create screenshots: ./screenshots -r10 dirname
+2. analyze: ./analyze
+
+6. reset cursor (tput cnorm)
+
+links
+-----
+
 read the story here: https://bbs.archlinux.org/viewtopic.php?id=216500
 
 others that seem to have the same or similar problem with screenshots
